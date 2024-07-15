@@ -18,11 +18,9 @@ build:
 requirements:
   build:
     - {{ compiler('rust') }}
-    - {{ compiler('c') }}  # [unix]
+    - {{ compiler('c') }}
     - m2w64-binutils       # [win]
     - cargo-bundle-licenses
-  run:
-    - __osx >={{ MACOSX_DEPLOYMENT_TARGET|default("10.13") }}  # [osx and x86_64]
 
 test:
   commands:
