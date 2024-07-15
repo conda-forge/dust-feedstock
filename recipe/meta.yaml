@@ -19,6 +19,7 @@ requirements:
   build:
     - {{ compiler('rust') }}
     - {{ compiler('c') }}
+    - {{ stdlib('c') }}
     - m2w64-binutils       # [win]
     - cargo-bundle-licenses
 
