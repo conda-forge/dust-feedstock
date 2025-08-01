@@ -1,4 +1,4 @@
-{% set version = "1.2.2" %}
+{% set version = "1.2.3" %}
 
 package:
   name: dust
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/bootandy/dust/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: e72f539ebe2f30bd85f83f8efd87c70c11e27126eeccd93560d94d2f01e153fe
+  sha256: 424b26adfbafeac31da269ecb3f189eca09803e60fad90b3ff692cf52e0aeeee
 
 build:
   number: 0
